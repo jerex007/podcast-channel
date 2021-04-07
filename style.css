@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;500&family=IBM+Plex+Sans:wght@300;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+}
+
+/* inicio menu mobile hamburguesa*/
+header.menu_mobile {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    height: 44px;
+}
+
+.logo_mobile {
+    width: 24px;
+    margin: 10px 0 10px 16px;
+}
+
+.menu_mobile label {
+    margin: 10px;
+}
+
+.items_mobile {
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+}
+
+.label_hamburguesa {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 19px;
+}
+
+.menu_mobile ul {
+    display: none;
+}
+
+input:checked~ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input:checked~label .fa-bars {
+    display: none;
+}
+
+input:not(:checked)~label .fa-times {
+    display: none;
+}
+
+input {
+    display: none;
+}
+
+.menu_mobile ul li {
+    background-color: #0000EC;
+    margin: 0px;
+    padding: 16px;
+    list-style: none;
+    width: 80vw;
+    border: none;
+}
+
+.menu_mobile li {
+    color: white;
+}
+
+@media screen and (min-width: 426px) {
+    header.menu_mobile {
+        display: none;
+    }
+}
+
+/*fin menu mobile hamburguesa*/
+
+/*inicio menu desktop*/
+
+header.menu_desktop {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.logo_desktop {
+    width: 36px;
+    margin: 22px 0 22px 100px
+}
+
+.menu_desktop a {
+    color: black;
+}
+
+.menu_desktop ul {
+    display: flex;
+    list-style: none;
+}
+
+.items_desktop {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.items_desktop li {
+    color: #060A24;
+    padding: 48px;
+}
+
+.items_desktop li:hover {
+    color: #00F3BB;
+    text-decoration: line-through;
+}
+
+.items_desktop li:visited {
+    color: rgba(6, 10, 36, 0.56);
+    text-decoration: line-through;
+}
+
+@media screen and (max-width: 426px) {
+    header.menu_desktop {
+        display: none;
+    }
+}
+
+/*fin menu desktop*/
+/*inicio seccion 1*/
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 29px auto 0px 16px;
+
+}
+
+.section1 .title {
+    width: 288px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.section1 p {
+    width: 288px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.world {
+    text-decoration: line-through;
+
+}
+
+.dot {
+    color: #0000EC;
+}
+
+.section1 .boton {
+    font-size: 1.125rem;
+    font-weight: 400;
+    width: 226px;
+    height: 56px;
+    background-color: #00F3BB;
+    border: none;
+    margin-top: 36px;
+}
+
+.section1 .boton {
+    text-decoration: none;
+    color: #060A24;
+    font-weight: 600;
+}
+
+.section1 .boton:hover {
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: white;
+}
+
+@media screen and (min-width: 426px) {
+    .section1 .title {
+        width: 740px;
+        margin: 120px 0 0 200px;
+    }
+
+    .section1 p {
+        width: 628px;
+        margin-left: 200px;
+    }
+
+    .section1 .boton {
+        margin: 56px 0 0 200px;
+    }
+}
+
+/*fin seccion 1*/
+/*inicio seccion 2*/
+/* mobile page*/
+.section2 {
+    width: 320px;
+    height: 1203.5px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 4%, 100% 0, 100% 96%, 0% 100%);
+}
+
+.section2 .title {
+    padding-top: 56px;
+    margin-left: 16px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 2.25rem;
+}
+
+.contenedor_iframes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iframe {
+    width: 100%;
+    margin: 21px 11px 0 11px;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+/*mobile page*/
+/*desktop page*/
+@media screen and (min-width: 426px) {
+    .contenedor_iframes {
+        padding: 72px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .iframe {
+        width: 584px;
+    }
+
+    .section2 {
+        width: 1440px;
+        height: 1042.6px;
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%);
+    }
+
+    .section2 .title {
+        padding-top: 186px;
+        margin-left: 200px;
+    }
+}
+
+/*desktop page*/
+/*fin seccion 2*/
+/*inicio seccion 3*/
+/*mobile page*/
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    margin-top: -60px;
+    z-index: 5;
+}
+
+.imagen_celular {
+    z-index: 5;
+    width: 320px;
+}
+
+.text_sec3 {
+    margin: 27px 16px 54px 16px;
+}
+
+.text_sec3 .title {
+    width: 288px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 2.25rem;
+    margin: 8px 16px 0 16px;
+}
+
+.text_sec3 p {
+    width: 288px;
+    font-size: 0.875rem;
+    font-weight: 300;
+    margin: 8px 16px 0px 16px;
+}
+
+/*mobile page*/
+/*desktop page*/
+@media screen and (min-width: 426px) {
+    .section3 {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-content: space-around;
+        margin-top: -160px;
+        z-index: 5;
+    }
+
+    .imagen_celular {
+        z-index: 5;
+        width: 457.6px;
+        margin-left: 200px;
+    }
+
+    .text_sec3 {
+        margin: 200px 256px 245px 62.4px;
+    }
+
+    .text_sec3 .title {
+        font-family: 'IBM Plex Sans';
+        width: 399px;
+        font-size: 3rem;
+        font-weight: 400;
+        margin: 8px 16px 0 16px;
+    }
+
+    .text_sec3 p {
+        width: 464px;
+        font-size: 1rem;
+        font-weight: 300;
+        margin: 8px 16px 0 16px;
+    }
+}
+
+/*desktop page*/
+/*fin seccion 3*/
+/*inicio seccion 4*/
+/* mobile page*/
+.section4 {
+    width: 320px;
+}
+
+.imagenes_inv {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.section4 h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    width: 288px;
+    margin: 54px 16px 14px 16px;
+}
+
+.invitadas {
+    width: 320px;
+}
+
+/*mobile page*/
+/*desktop page*/
+@media screen and (min-width: 426px) {
+    .seccion5 {
+        width: 1440px;
+    }
+    .section4 .imagenes_inv {
+        width: 1440px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .section4 h1 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 3rem;
+        font-weight: 400;
+        width: 481px;
+        margin: 64px 0 36px 200px;
+    }
+
+    .invitadas {
+        width: 480px;
+    }
+}
+
+/*desktop page*/
+/*fin seccion 4*/
+
+/*inicio seccion 5 */
+
+.seccion5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section5 .title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    width: 288px;
+    margin: 48px 16px 0 16px;
+}
+
+.contenedor_iconos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.contenedor_iconos .icono {
+    width: 104px;
+    margin: 37px 108px 13px 108px;
+}
+
+.contenedor_iconos h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.5rem;
+    width: 288px;
+    margin: 0px 16px;
+    text-align: center;
+}
+
+@media screen and (min-width:426px) {
+    .section5 .title {
+        width: 586px;
+        font-size: 3rem;
+        font-weight: 400;
+        margin: 64px 0px 0px 200px;
+    }
+
+    .contenedor_iconos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 56px 278px 0px 278px;
+    }
+}
+
+/*fin seccion 5 */
+/*iniocio seccion 6*/
+.section6 {
+    width: 320px;
+    height: 341px;
+    margin-top: 42px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.section6 .title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 288px;
+    margin: 0 16px 0 16px;
+    padding-top: 64px;
+    text-align: center;
+}
+
+.section6 button {
+    width: 288px;
+    height: 48px;
+    margin: 36px 16px 0 16px;
+    border: none;
+    background-color: #00F3BB;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.section6 button:hover {
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: white;
+}
+
+@media screen and (min-width: 426px) {
+    .section6 {
+        width: 1440px;
+        height: 518px;
+        margin-top: 42px;
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section6 .title {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 3rem;
+        font-weight: 400;
+        color: #FFFFFF;
+        width: 692px;
+        margin: 0 374px 0 374px;
+        padding-top: 213px;
+        text-align: center;
+    }
+
+    .section6 button {
+        width: 345px;
+        height: 56px;
+        margin: 36px 548px 0 547px;
+        border: none;
+        background-color: #00F3BB;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+}
+
+/*fin seccion 6*/
+/*inicio footer*/
+footer {
+    width: 320px;
+    height: 121px;
+}
+
+footer h1 {
+    width: 227px;
+    font-size: 0.875rem;
+    font-weight: 300;
+    margin: 24px 46px 0 46px;
+}
+
+.icono_redes {
+    margin: 16px 45px 0 45px;
+    width: 227px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono_redes i {
+    width: 16px;
+    height: 28px;
+}
+
+@media screen and (min-width: 426px) {
+    footer {
+        width: 1440px;
+        height: 95px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer h1 {
+        margin: 36px 0 0 100px;
+    }
+
+    .icono_redes {
+        margin: 36px 100px 0 0;
+    }
+}
