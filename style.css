@@ -13,6 +13,7 @@
 
 /* inicio menu mobile hamburguesa*/
 header.menu_mobile {
+    width: 320px;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
@@ -41,6 +42,7 @@ header.menu_mobile {
 }
 
 .menu_mobile ul {
+    
     display: none;
 }
 
@@ -55,6 +57,7 @@ input:checked~label .fa-bars {
 }
 
 input:not(:checked)~label .fa-times {
+    margin-right: 19px;
     display: none;
 }
 
