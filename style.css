@@ -165,7 +165,7 @@ header.menu_desktop {
 }
 
 .dot {
-    color: #0000EC;
+    color: #060A24;
 }
 
 .section1 .boton {
@@ -202,6 +202,9 @@ header.menu_desktop {
 
     .section1 .boton {
         margin: 56px 0 0 200px;
+    }
+    .dot {
+        color: #0000EC;
     }
 }
 
