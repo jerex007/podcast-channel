@@ -437,6 +437,9 @@ header.menu_desktop {
 }
 
 @media screen and (min-width:426px) {
+    .section5{
+        width: 1440px;
+    }
     .section5 .title {
         width: 586px;
         font-size: 3rem;
