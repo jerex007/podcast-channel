@@ -318,6 +318,7 @@ header.menu_desktop {
         align-content: space-around;
         margin-top: -160px;
         z-index: 5;
+        width: 1440px;
     }
 
     .imagen_celular {
