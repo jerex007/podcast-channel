@@ -169,7 +169,7 @@ header.menu_desktop {
 }
 
 .section1 .boton {
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 400;
     width: 226px;
     height: 56px;
@@ -202,6 +202,7 @@ header.menu_desktop {
     }
 
     .section1 .boton {
+        font-size: 1.125rem;
         margin: 56px 0 0 200px;
     }
     .dot {
@@ -522,7 +523,7 @@ header.menu_desktop {
         margin: 36px 548px 0 547px;
         border: none;
         background-color: #00F3BB;
-        font-size: 1rem;
+        font-size: 1.125rem;
         font-weight: 600;
     }
 }
