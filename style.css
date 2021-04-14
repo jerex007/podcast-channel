@@ -171,8 +171,8 @@ header.menu_desktop {
 .section1 .boton {
     font-size: 1rem;
     font-weight: 400;
-    width: 226px;
-    height: 56px;
+    width: 288px;
+    height: 48px;
     background-color: #00F3BB;
     border: none;
     margin-top: 36px;
@@ -204,6 +204,8 @@ header.menu_desktop {
     .section1 .boton {
         font-size: 1.125rem;
         margin: 56px 0 0 200px;
+        width: 226px;
+        height: 56px;
     }
     .dot {
         color: #0000EC;
@@ -218,6 +220,7 @@ header.menu_desktop {
     height: 1203.5px;
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     clip-path: polygon(0 4%, 100% 0, 100% 96%, 0% 100%);
+    margin-top: 24px;
 }
 
 .section2 .title {
