@@ -58,7 +58,7 @@ input:checked~label .fa-bars {
 }
 
 input:not(:checked)~label .fa-times {
-    margin-right: 19px;
+    
     display: none;
 }
 
@@ -90,7 +90,7 @@ input {
 /*inicio menu desktop*/
 
 header.menu_desktop {
-    width: 1440px;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -196,14 +196,17 @@ header.menu_desktop {
 /*mobile page*/
 /*desktop page*/
 @media screen and (min-width: 426px) {
-    .section1 .title {
-        width: 740px;
+        .section1{
+        width: 100vw;
+    }
+        .section1 .title {
+        width: 100vw;
         margin: 120px 0 0 200px;
         font-size: 4rem;
     }
 
     .section1 p {
-        width: 628px;
+        width: 100vw;
         margin-left: 200px;
     }
 
@@ -258,6 +261,7 @@ header.menu_desktop {
 /*desktop page*/
 @media screen and (min-width: 426px) {
     .contenedor_iframes {
+        
         margin: 26px 100px 0 100px;
         display: flex;
         flex-direction: row;
@@ -272,7 +276,7 @@ header.menu_desktop {
     }
 
     .section2 {
-        width: 1440px;
+        width: 100vw;
         height: 1042.6px;
         background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
         clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%);
@@ -331,7 +335,7 @@ header.menu_desktop {
         align-content: space-around;
         margin-top: -160px;
         z-index: 5;
-        width: 1440px;
+        width: 100vw;
     }
 
     .imagen_celular {
@@ -390,11 +394,11 @@ header.menu_desktop {
 /*desktop page*/
 @media screen and (min-width: 426px) {
     .seccion5 {
-        width: 1440px;
+        width: 100vw;
     }
 
     .section4 .imagenes_inv {
-        width: 1440px;
+        width: 100vw;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -409,7 +413,7 @@ header.menu_desktop {
     }
 
     .invitadas {
-        width: 480px;
+        width: 33vw;
     }
 }
 
@@ -457,7 +461,7 @@ header.menu_desktop {
 /*desktop page*/
 @media screen and (min-width:426px) {
     .section5 {
-        width: 1440px;
+        width: 100vw;
         
     }
 
@@ -524,13 +528,14 @@ header.menu_desktop {
 /*desktop page*/
 @media screen and (min-width: 426px) {
     .section6 {
-        width: 1440px;
+        width: 100vw;
         height: 518px;
         margin-top: 42px;
         background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
         clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .section6 .title {
@@ -587,7 +592,7 @@ footer h1 {
 /*desktop page*/
 @media screen and (min-width: 426px) {
     footer {
-        width: 1440px;
+        width: 100vw;
         height: 95px;
         display: flex;
         flex-direction: row;
