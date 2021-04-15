@@ -11,6 +11,7 @@
     font-size: 16px;
 }
 
+/* incio header*/
 /* inicio menu mobile hamburguesa*/
 header.menu_mobile {
     width: 320px;
@@ -42,7 +43,7 @@ header.menu_mobile {
 }
 
 .menu_mobile ul {
-    
+
     display: none;
 }
 
@@ -137,7 +138,10 @@ header.menu_desktop {
 }
 
 /*fin menu desktop*/
+/*fin header*/
+
 /*inicio seccion 1*/
+/*mobile page*/
 .section1 {
     display: flex;
     flex-direction: column;
@@ -181,7 +185,7 @@ header.menu_desktop {
 .section1 .boton {
     text-decoration: none;
     color: #060A24;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .section1 .boton:hover {
@@ -189,6 +193,8 @@ header.menu_desktop {
     color: white;
 }
 
+/*mobile page*/
+/*desktop page*/
 @media screen and (min-width: 426px) {
     .section1 .title {
         width: 740px;
@@ -207,11 +213,13 @@ header.menu_desktop {
         width: 226px;
         height: 56px;
     }
+
     .dot {
         color: #0000EC;
     }
 }
 
+/*desktop page*/
 /*fin seccion 1*/
 /*inicio seccion 2*/
 /* mobile page*/
@@ -382,6 +390,7 @@ header.menu_desktop {
     .seccion5 {
         width: 1440px;
     }
+
     .section4 .imagenes_inv {
         width: 1440px;
         display: flex;
@@ -406,7 +415,7 @@ header.menu_desktop {
 /*fin seccion 4*/
 
 /*inicio seccion 5 */
-
+/* mobile page*/
 .seccion5 {
     width: 100%;
     display: flex;
@@ -442,10 +451,13 @@ header.menu_desktop {
     text-align: center;
 }
 
+/*mobile page*/
+/*desktop page*/
 @media screen and (min-width:426px) {
-    .section5{
+    .section5 {
         width: 1440px;
     }
+
     .section5 .title {
         width: 586px;
         font-size: 3rem;
@@ -461,8 +473,10 @@ header.menu_desktop {
     }
 }
 
+/*desktop page*/
 /*fin seccion 5 */
 /*iniocio seccion 6*/
+/*mobile page*/
 .section6 {
     width: 320px;
     height: 341px;
@@ -499,6 +513,8 @@ header.menu_desktop {
     color: white;
 }
 
+/*mobile page*/
+/*desktop page*/
 @media screen and (min-width: 426px) {
     .section6 {
         width: 1440px;
@@ -528,12 +544,14 @@ header.menu_desktop {
         border: none;
         background-color: #00F3BB;
         font-size: 1.125rem;
-        font-weight: 600;
+        font-weight: 400;
     }
 }
 
+/*desktop page*/
 /*fin seccion 6*/
 /*inicio footer*/
+/*mobile page*/
 footer {
     width: 320px;
     height: 121px;
@@ -558,6 +576,8 @@ footer h1 {
     height: 28px;
 }
 
+/*mobile page*/
+/*desktop page*/
 @media screen and (min-width: 426px) {
     footer {
         width: 1440px;
@@ -575,3 +595,6 @@ footer h1 {
         margin: 36px 100px 0 0;
     }
 }
+
+/*desktop page*/
+/*fin footer*/
