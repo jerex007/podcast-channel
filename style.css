@@ -258,7 +258,7 @@ header.menu_desktop {
 /*desktop page*/
 @media screen and (min-width: 426px) {
     .contenedor_iframes {
-        padding: 72px;
+        margin: 26px 100px 0 100px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -267,6 +267,8 @@ header.menu_desktop {
 
     .iframe {
         width: 584px;
+        margin-bottom: 72px;
+
     }
 
     .section2 {
