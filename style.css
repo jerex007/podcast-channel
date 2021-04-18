@@ -474,7 +474,7 @@ header.menu_desktop {
     }
 
     .section5 .title {
-        width: 586px;
+        width: 50vw;
         font-size: 3rem;
         font-weight: 400;
         margin: 64px 0px 34px 200px;
@@ -485,6 +485,7 @@ header.menu_desktop {
         flex-direction: row;
         justify-content: space-around;
         margin: 56px 200px 0px 200px;
+        flex-wrap: wrap;
     }
 
     .contenedor_iconos2 {
@@ -553,9 +554,9 @@ header.menu_desktop {
         font-size: 3rem;
         font-weight: 400;
         color: #FFFFFF;
-        width: 692px;
+        width: 80vw;
         margin: 0 374px 0 374px;
-        padding-top: 213px;
+        padding-top: 20vh;
         text-align: center;
     }
 
