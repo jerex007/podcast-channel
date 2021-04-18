@@ -203,16 +203,18 @@ header.menu_desktop {
 @media screen and (min-width: 426px) {
     .section1 {
         width: 100vw;
+        display: flex;
+        align-items: flex-start;
     }
 
     .section1 .title {
-        width: 100vw;
+        width: 80vw;
         margin: 120px 0 0 200px;
         font-size: 4rem;
     }
 
     .section1 p {
-        width: 100vw;
+        width: 50vw;
         margin-left: 200px;
     }
 
