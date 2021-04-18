@@ -27,7 +27,7 @@ header.menu_mobile {
 }
 
 .menu_mobile label {
-    margin: 10px;
+    margin: 16px;
 }
 
 .items_mobile {
@@ -62,7 +62,7 @@ input:checked~label .fa-bars {
 }
 
 input:not(:checked)~label .fa-times {
-    
+
     display: none;
 }
 
@@ -153,7 +153,6 @@ header.menu_desktop {
     justify-content: center;
     margin: 29px auto 0px auto;
     align-items: center;
-
 }
 
 .section1 .title {
@@ -202,10 +201,11 @@ header.menu_desktop {
 /*mobile page*/
 /*desktop page*/
 @media screen and (min-width: 426px) {
-        .section1{
+    .section1 {
         width: 100vw;
     }
-        .section1 .title {
+
+    .section1 .title {
         width: 100vw;
         margin: 120px 0 0 200px;
         font-size: 4rem;
@@ -267,7 +267,7 @@ header.menu_desktop {
 /*desktop page*/
 @media screen and (min-width: 426px) {
     .contenedor_iframes {
-        
+
         margin: 26px 100px 0 100px;
         display: flex;
         flex-direction: row;
@@ -322,7 +322,7 @@ header.menu_desktop {
     font-family: 'IBM Plex Sans';
     font-weight: 400;
     font-size: 2.25rem;
-    }
+}
 
 .text_sec3 p {
     width: 90vw;
@@ -468,7 +468,7 @@ header.menu_desktop {
 @media screen and (min-width:426px) {
     .section5 {
         width: 100vw;
-        
+
     }
 
     .section5 .title {
@@ -484,9 +484,10 @@ header.menu_desktop {
         justify-content: space-around;
         margin: 56px 200px 0px 200px;
     }
-    .contenedor_iconos2{
+
+    .contenedor_iconos2 {
         width: 260px;
-        
+
     }
 }
 
