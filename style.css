@@ -122,7 +122,7 @@ header.menu_desktop {
 
 .items_desktop li {
     color: #060A24;
-    padding: 48px;
+    padding: 2.5vw;
 }
 
 .items_desktop li:hover {
@@ -259,7 +259,7 @@ header.menu_desktop {
 }
 
 .iframe {
-    width: 100%;
+    width: 100vw;
     margin: 21px 11px 0 11px;
     padding-left: 11px;
     padding-right: 11px;
@@ -278,7 +278,7 @@ header.menu_desktop {
     }
 
     .iframe {
-        width: 584px;
+        width: 33vw;
         margin-bottom: 72px;
 
     }
@@ -358,14 +358,14 @@ header.menu_desktop {
 
     .text_sec3 .title {
         font-family: 'IBM Plex Sans';
-        width: 399px;
+        width: 30vw;
         font-size: 3rem;
         font-weight: 400;
         margin: 8px 16px 0 16px;
     }
 
     .text_sec3 p {
-        width: 464px;
+        width: 30vw;
         font-size: 1rem;
         font-weight: 300;
         margin: 8px 16px 0 16px;
