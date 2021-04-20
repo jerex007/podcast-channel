@@ -79,8 +79,9 @@ input {
     border: none;
 }
 
-.menu_mobile li {
+.menu_mobile li a{
     color: white;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 426px) {
@@ -120,12 +121,13 @@ header.menu_desktop {
     margin-right: 100px;
 }
 
-.items_desktop li {
+.items_desktop li a{
     color: #060A24;
     padding: 2.5vw;
+    text-decoration: none;
 }
 
-.items_desktop li:hover {
+.items_desktop li a:hover {
     color: #00F3BB;
     text-decoration: line-through;
 }
