@@ -600,7 +600,10 @@ footer h1 {
 .icono_redes i {
     width: 16px;
     height: 28px;
+    text-decoration: none;
+    color: black;
 }
+
 
 /*mobile page*/
 /*desktop page*/
