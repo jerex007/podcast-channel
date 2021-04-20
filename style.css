@@ -33,7 +33,7 @@ header.menu_mobile {
 .items_mobile {
     display: flex;
     flex-direction: column;
-    z-index: 5;
+    z-index: 10;
 }
 
 .label_hamburguesa {
