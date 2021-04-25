@@ -261,10 +261,13 @@ header.menu_desktop {
 }
 
 .iframe {
-    width: 100vw;
+    width: 100%;
     margin: 21px 11px 0 11px;
     padding-left: 11px;
     padding-right: 11px;
+    height: 232px;
+    border: 0px;
+    background-color: transparent;
 }
 
 /*mobile page*/
